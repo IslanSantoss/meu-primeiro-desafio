@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#84E1AD;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 700px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3ddc84, #1a5c37);
+    height: 150px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+
+}
+
+main{
+    margin: 0px 200px;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 3px black;
+}
+
+.primeiro-texto{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.534);
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.315);
+    transition-duration: 0.5s;
+}
+
+nav>a:hover{
+    color: rgba(21, 94, 21, 0.377);
+    background-color: rgba(211, 211, 211, 0.493);
+    padding: 8px;
+}
+
+h2{
+    font-size: 35px;
+    margin: 10px;
+    color: #20603D;
+    padding: 10px;
+    background-color: #c9edda42;
+    font-family: 'idroid', times, serif;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.233);
+    border-radius: 20px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 40px;
+    font-weight: 600;
+    margin: 20px 50px;
+    text-shadow: 2px 1px 5px rgba(211, 211, 211, 0.596);
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+img{
+  width:100%;  
+}
+
+.bugdroid{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+footer{
+    background-color: #20603D;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+footer>a{
+    text-decoration: none;
+    color: rgb(184, 231, 192);
+}
+
+@font-face {
+    font-family:'idroid';
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
